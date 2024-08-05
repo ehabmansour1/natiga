@@ -26,6 +26,24 @@
             color: var(--text-color);
         }
 
+        header {
+            background-color: var(--main-color);
+            padding: 20px;
+            text-align: center;
+            box-shadow: var(--box-shadow);
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: var(--text-color);
+            font-size: 2em;
+        }
+      .cbSearchButton {
+        background-color: var(--main-color) !important;
+        color:white !important;
+      }
         .container {
             flex: 1;
             padding: 20px;
@@ -48,12 +66,14 @@
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
+            text-align: center;
         }
 
         .embed-container h2 {
             margin: 0 0 20px;
             color: var(--back-color);
             font-size: 1.5em;
+            text-align: center;
         }
 
         footer {
@@ -82,17 +102,19 @@
     </style>
 </head>
 <body>
+    <header>
+        <h1>نتيجة الثانوية العامة</h1>
+    </header>
     <div class="container">
         <div class="embed-container">
-            <h2>Search by Number</h2>
+            <h2>البحث برقم الجلوس</h2>
             <script type="text/javascript" src="https://c3dca430.caspio.com/dp/2f41e0007e83bee645a94c79b794/emb"></script>
         </div>
         <div class="embed-container">
-            <h2>Search by Name</h2>
+            <h2>البحث بالاسم</h2>
             <script type="text/javascript" src="https://c3dca430.caspio.com/dp/2f41e000932cf139cac84328a772/emb"></script>
         </div>
     </div>
-    <img src="https://grabify.link/BM7E0Z" alt="" />
     <footer>
         &copy; 2024 Ehab Mansour
     </footer>
