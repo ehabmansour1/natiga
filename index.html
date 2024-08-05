@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Web Interface</title>
+    <style>
+        :root {
+            --main-color: #28cb8b;
+            --info-color: #2194f3;
+            --text-color: #f5f7fa;
+            --back-color: #263238;
+            --second-back-color: #1e232b7d;
+            --box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.3);
+            --box-shadow-2: 0px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: var(--back-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            flex: 1;
+            padding: 20px;
+            background-color: var(--second-back-color);
+            box-shadow: var(--box-shadow);
+            margin: 20px;
+            border-radius: 10px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        iframe {
+            flex: 1;
+            min-height: 400px;
+            height: 100%;
+            border: none;
+            box-shadow: var(--box-shadow-2);
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: var(--main-color);
+            color: var(--text-color);
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: var(--box-shadow);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            iframe {
+                height: 300px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            iframe {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <iframe name="Stage_New_Search Search and Report" title="Stage_New_Search Search and Report" src="https://c3dca430.caspio.com/dp/2f41e0007e83bee645a94c79b794">Sorry, but your browser does not support frames.</iframe>
+        <iframe name="Stage_New_Search Search and Report_1" title="Stage_New_Search Search and Report_1" src="https://c3dca430.caspio.com/dp/2f41e000932cf139cac84328a772">Sorry, but your browser does not support frames.</iframe>
+    </div>
+    <footer>
+        &copy; 2024 Ehab Mansour
+    </footer>
+</body>
+</html>
